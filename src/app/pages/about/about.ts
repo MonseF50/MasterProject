@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, effect, signal, WritableSignal } from '@angular/core';
 
 @Component({
   selector: 'app-about',
